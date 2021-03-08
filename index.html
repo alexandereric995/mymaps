@@ -90,7 +90,7 @@ var googleSat = new L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z=
 
 var map = new L.Map('mapDiv', { doubleClickZoom:false, zoomControl:false, maxBounds:([[90,-270],[-90,270]]) });
 
-L.control.layers({"Peta Satu": osm, "Peta Dua": googleStreets, "Peta 3": googleSat}).addTo(map);
+L.control.layers({"TYPE 1": osm, "TYPE 2": googleStreets, "TYPE 3": googleSat}).addTo(map);
 
 map.addLayer(osm);
 var map_set = "osm";
